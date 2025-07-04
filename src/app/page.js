@@ -1,11 +1,10 @@
-import Image from 'next/image';
-import styles from './page.module.css';
-
+import Logo from './config/logo.svg';
+import './styles.scss';
 export default function Home() {
   return (
     <div>
       <h1>Hello World</h1>
-      <Image src={'/config/logo.svg'} width="300" height={300}></Image>
+      <img src={Logo.src} style={{ width: 300 }}></img>
     </div>
   );
 }
