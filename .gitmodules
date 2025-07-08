@@ -1,3 +1,0 @@
-[submodule "src/app/config"]
-	path = src/app/config
-	url = https://github.com/topashgun/injin-manager-clients-repo.git
