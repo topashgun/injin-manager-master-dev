@@ -1,0 +1,11 @@
+@import 'config/styles.scss';
+
+html,
+body {
+  background-color: $secondary-color;
+}
+
+html *,
+body * {
+  color: $primary-color;
+}
