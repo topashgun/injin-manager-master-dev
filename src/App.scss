@@ -2,8 +2,10 @@
 
 html,
 body {
-  background: $secondary-color;
+  background-color: $secondary-color;
 }
-h1 {
+
+html *,
+body * {
   color: $primary-color;
 }
